@@ -1,4 +1,13 @@
 @import "tailwindcss";
+@font-face {
+  font-family: diavlo;
+  src: url("../src/assets/font/Diavlo_LIGHT_II_37.otf");
+}
+
+@theme {
+  --font-diavlo: diavlo, "sans-serif";
+}
+
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark, black;
 }
