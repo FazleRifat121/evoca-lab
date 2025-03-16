@@ -1,10 +1,14 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import MainLayout from "./layout/main/MainLayout";
+import { RouterProvider } from "react-router";
+import { router } from "./router/router";
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
-)
+    <div className="container mx-auto p-4">
+      <RouterProvider router={router}></RouterProvider>
+    </div>
+  </StrictMode>
+);
