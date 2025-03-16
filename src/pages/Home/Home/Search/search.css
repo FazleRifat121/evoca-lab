@@ -31,5 +31,4 @@
 .search button[type="submit"]:hover {
   transform: scale(1.1);
   color: rgb(255, 255, 255);
-  background-color: #8cc63f;
 }

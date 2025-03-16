@@ -1,0 +1,6 @@
+.icon-ani {
+  transition: 0.9s ease-in-out;
+}
+.icon-ani:hover {
+  transform: scale(1.3);
+}

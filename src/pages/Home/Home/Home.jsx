@@ -5,6 +5,8 @@ import email from "../../../assets/Home/email.svg";
 import title from "../../../assets/Home/title.svg";
 import Search from "./Search/Search";
 import { Link } from "react-router";
+
+import "./home.css";
 const Home = () => {
   return (
     <div className="max-w-screen mx-auto p-4 text-white font-diavlo">
@@ -30,18 +32,18 @@ const Home = () => {
               Stay in touch :
             </h3>
             <ul className="flex items-center gap-4 ">
-              <li className="text-2xl flex items-center  ">
+              <li className="text-2xl flex items-center icon-ani">
                 <Link to={"remove this text enter your link here"}>
                   <img src={fb} alt="" />
                 </Link>
               </li>
 
-              <li className="text-2xl flex items-center  ">
+              <li className="text-2xl flex items-center icon-ani ">
                 <Link to={"remove this text enter your link here"}>
                   <img src={twitter} alt="" />
                 </Link>
               </li>
-              <li className="text-2xl flex items-center  ">
+              <li className="text-2xl flex items-center icon-ani ">
                 <Link to={"remove this text enter your link here"}>
                   <img src={email} alt="" />
                 </Link>
