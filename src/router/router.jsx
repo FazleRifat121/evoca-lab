@@ -4,7 +4,7 @@ import {
   createRoutesFromElements,
 } from "react-router";
 import MainLayout from "../layout/main/MainLayout";
-import Home from "../pages/Home/Home";
+import Home from "../pages/Home/Home/Home";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
