@@ -5,12 +5,13 @@ import {
 } from "react-router";
 import MainLayout from "../layout/main/MainLayout";
 import Home from "../pages/Home/Home/Home";
+import About from "../pages/About/About";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />}>
       <Route path="/" element={<Home />}></Route>
-      <Route path="/about" element={<Home />}></Route>
+      <Route path="/about" element={<About />}></Route>
       <Route path="/team" element={<Home />}></Route>
       <Route path="/sales" element={<Home />}></Route>
       <Route path="/story" element={<Home />}></Route>
