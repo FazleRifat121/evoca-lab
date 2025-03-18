@@ -9,7 +9,7 @@ const Banner = () => {
         <p className="lg:text-6xl text-2xl font-light">memory assistance</p>
       </div>
       <figure>
-        <img src={robot} alt="robot" className="md:w-xs lg:w-full" />
+        <img src={robot} alt="robot" className="md:w-xs w-full" />
       </figure>
     </div>
   );
