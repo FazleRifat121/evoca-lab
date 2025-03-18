@@ -1,0 +1,5 @@
+.title {
+  color: transparent;
+  background: linear-gradient(#c8da27, #8f9c1c);
+  background-clip: text;
+}

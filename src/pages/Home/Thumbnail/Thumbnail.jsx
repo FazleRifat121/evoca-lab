@@ -1,13 +1,13 @@
-import img1 from "../../../assets/Home/logo.png";
-import fb from "../../../assets/Home/fb.svg";
-import twitter from "../../../assets/Home/twitter.svg";
-import email from "../../../assets/Home/email.svg";
-import title from "../../../assets/Home/title.svg";
+import img1 from "../../../assets/Thumbnail/logo.png";
+import fb from "../../../assets/Thumbnail/fb.svg";
+import twitter from "../../../assets/Thumbnail/twitter.svg";
+import email from "../../../assets/Thumbnail/email.svg";
+import title from "../../../assets/Thumbnail/title.svg";
 import Search from "./Search/Search";
 import { Link } from "react-router";
 
 import "./thumbnail.css";
-const Home = () => {
+const Thumbnail = () => {
   return (
     <div className="max-w-screen mx-auto p-4 text-white font-diavlo">
       <div className="flex justify-center items-center flex-col gap-5  h-[100dvh]">
@@ -56,4 +56,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Thumbnail;

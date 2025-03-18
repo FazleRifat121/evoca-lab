@@ -1,11 +1,16 @@
 @import "tailwindcss";
+
 @font-face {
   font-family: diavlo;
   src: url("../src/assets/font/Diavlo_LIGHT_II_37.otf");
 }
-
+@font-face {
+  font-family: inter;
+  src: url("../src/assets/font/Inter-VariableFont_opsz,wght.ttf");
+}
 @theme {
   --font-diavlo: diavlo, "sans-serif";
+  --font-inter: inter, "sans-serif";
 }
 
 @plugin "daisyui" {
