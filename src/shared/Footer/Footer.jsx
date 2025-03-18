@@ -11,12 +11,14 @@ const Footer = () => {
           <img src={logo} alt="logo" />
         </a>
       </aside>
-      <div>
+      <div className="relative">
         <p>
           Terms & conditions Privacy policy Cookies policy Copyrights
           Notification
         </p>
-        <span className="text-gray-500 md:mx-auto">All rights reserved.</span>
+        <span className="text-gray-500 absolute top-10 lg:left-48 lg:top-6">
+          All rights reserved.
+        </span>
       </div>
 
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
