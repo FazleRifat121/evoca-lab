@@ -24,7 +24,7 @@ const BannerSlider = () => {
     },
   ];
   return (
-    <div className="flex flex-col lg:flex-row gap-20 justify-center items-center h-[60dvh] ">
+    <div className="flex flex-col lg:flex-row gap-20 justify-center items-center h-[60dvh]  mb-20">
       {cards.map((card) => (
         <div
           key={card.id}
