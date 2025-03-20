@@ -23,7 +23,7 @@ const Sidebar = () => {
         <li>How-to videos</li>
       </NavLink>
       <NavLink
-        to={"/about"}
+        to={"/contact"}
         className="btn bg-[#C8DA27] text-black rounded text-xl  font-inter py-6 px-4 lg:ml-5"
       >
         <li>Contact</li>
@@ -31,7 +31,7 @@ const Sidebar = () => {
     </>
   );
   return (
-    <div className="z-10">
+    <div className="z-30">
       <div className="drawer">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">

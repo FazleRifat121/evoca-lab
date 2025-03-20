@@ -23,7 +23,7 @@ const Navbar = () => {
         <li>How-to videos</li>
       </NavLink>
       <NavLink
-        to={"/about"}
+        to={"/contact"}
         className="btn bg-[#C8DA27] text-black rounded text-xl  font-inter py-6 px-4 lg:ml-5"
       >
         <li>Contact</li>
