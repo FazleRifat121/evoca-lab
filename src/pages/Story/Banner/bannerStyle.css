@@ -1,0 +1,12 @@
+.bg-img {
+  background-image: linear-gradient(
+      to right,
+      #131313,
+      rgba(49, 52, 17, 0.8),
+      rgba(57, 62, 14, 0.8)
+    ),
+    url("../../../assets/Story/Banner/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
