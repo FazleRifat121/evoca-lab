@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <div className="navbar font-inter ">
       <div className="navbar-start">
-        <div className="md:hidden mr-10">
+        <div className="lg:hidden mr-10">
           <Sidebar></Sidebar>
         </div>
         <a href="/">

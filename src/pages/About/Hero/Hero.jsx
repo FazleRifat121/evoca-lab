@@ -6,13 +6,13 @@ const Hero = () => {
     <div>
       <div className="w-full lg:w-[1070px] lg:mx-auto p-4 ">
         <div className="my-5 border border-[#1C1D1C] rounded ">
-          <div className=" md:p-10">
+          <div className="p-5 md:p-10">
             <div className="flex flex-col lg:flex-row items-center">
               <img
                 src={card1}
-                className="w-[400px] md:max-w-sm rounded-lg shadow-2xl"
+                className="md:w-[400px]  rounded-lg shadow-2xl"
               />
-              <div className="texts bg-linear-0 from-[#252A25] to-[#3D4D3D] h-56 w-56 md:w-[549px] md:h-[235px] flex justify-center space-y-5 flex-col font-inter rounded-lg ">
+              <div className="texts bg-linear-0 from-[#252A25] to-[#3D4D3D] h-56  md:w-[549px] md:h-[235px] flex justify-center space-y-5 flex-col font-inter md:rounded-lg ">
                 <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-[#C8DA27] to-[#8F9C1C] text-2xl ml-10">
                   Evoca?
                 </h1>
@@ -26,13 +26,13 @@ const Hero = () => {
 
       <div className="w-full lg:w-[1070px] lg:mx-auto p-4 ">
         <div className="my-5 border border-[#1C1D1C] rounded ">
-          <div className=" md:p-10">
+          <div className="p-5 md:p-10">
             <div className="flex  flex-col lg:flex-row-reverse items-center">
               <img
                 src={card2}
-                className="w-[400px] md:max-w-sm rounded-lg shadow-2xl"
+                className="md:w-[400px]  rounded-lg shadow-2xl"
               />
-              <div className="texts bg-linear-0 from-[#252A25] to-[#3D4D3D] h-56 w-56 md:w-[549px] md:h-[235px] flex justify-center space-y-5 flex-col font-inter rounded-lg ">
+              <div className="texts bg-linear-0 from-[#252A25] to-[#3D4D3D] h-56 md:w-[549px] md:h-[235px] flex justify-center space-y-5 flex-col font-inter md:rounded-lg ">
                 <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-[#C8DA27] to-[#8F9C1C] text-2xl ml-10">
                   Evoca?
                 </h1>
