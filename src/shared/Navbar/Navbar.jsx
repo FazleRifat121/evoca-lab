@@ -10,7 +10,7 @@ const Navbar = () => {
       <NavLink to={"/about"}>
         <li>About us</li>
       </NavLink>
-      <NavLink to={"/about"}>
+      <NavLink to={"/team"}>
         <li>Team</li>
       </NavLink>
       <NavLink to={"/about"}>

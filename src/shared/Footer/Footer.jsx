@@ -4,14 +4,14 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal text-neutral-content items-center p-4 mt-10">
+    <footer className="footer sm:footer-horizontal  items-center p-4 mt-10">
       <aside className="grid-flow-col items-center">
         <a href="/">
           {" "}
           <img src={logo} alt="logo" />
         </a>
       </aside>
-      <div className="relative">
+      <div className="relative lg:ml-28 ">
         <p>
           Terms & conditions Privacy policy Cookies policy Copyrights
           Notification
