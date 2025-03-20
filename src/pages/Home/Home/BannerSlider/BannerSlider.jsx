@@ -30,7 +30,7 @@ const BannerSlider = () => {
           key={card.id}
           className={`transition-all duration-300 ease-in-out p-6 rounded-lg cursor-pointer w-full md:w-[417px] h-[335px] flex flex-col justify-around ${
             activeCard === card.id
-              ? "bg-lime-400 md:scale-110 text-black"
+              ? "bg-[#C8DA27] md:scale-110 text-black"
               : "bg-linear-0 from-[#3D4D3D] to-[#1C1D1C] text-gray-300"
           }`}
           onClick={() => setActiveCard(card.id)}
