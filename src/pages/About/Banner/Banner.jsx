@@ -2,17 +2,14 @@ import Navbar from "../../../shared/Navbar/Navbar";
 import "./animatedBg.css";
 const Banner = () => {
   return (
-    <div className="relative min-h-[400px] max-w-screen overflow-hidden p-10">
+    <div className="relative min-h-[400px] max-w-screen overflow-hidden  ">
       {/* Animated Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#131313] via-[#313411] to-[#393E0E] animate-gradient"></div>
 
-      {/* Content */}
-      <div className="relative z-10 w-full lg:max-w-[90rem] mx-auto h-full border border-b-0 rounded-t-xl">
+      {/* Content - Modified div */}
+      <div className="absolute inset-x-0 bottom-0 z-10 w-[300px] md:w-[700px] lg:w-[1377px] p-5 mx-auto h-[calc(100%-2.5rem)] border border-b-0 rounded-t-xl">
         <div>
-          {/* Navigation - Assuming Navbar component exists */}
           <Navbar />
-
-          {/* Main Heading */}
           <div className="text-center text-white pt-20">
             <h1 className="text-3xl text-gray-400 mb-8">
               What is <br />
