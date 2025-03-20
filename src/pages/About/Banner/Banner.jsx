@@ -21,7 +21,6 @@ const Banner = () => {
                   Evoca?
                 </span>
               </h1>
-              <div className="w-24 h-1 bg-white mx-auto" />
             </div>
           </div>
         </div>

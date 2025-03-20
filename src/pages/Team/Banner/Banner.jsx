@@ -15,7 +15,7 @@ const Banner = () => {
           <div className="flex-1 flex items-center justify-center">
             <div className=" text-white w-full">
               <h1 className="text-3xl md:text-4xl lg:text-5xl text-white mb-6 md:mb-8">
-                <span> How does</span> <br />
+                <span className="lg:text-6xl"> How does</span> <br />
                 <span className="flex items-center gap-2 lg:gap-5 ">
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#C8DA27] to-[#8F9C1C] text-5xl md:text-6xl lg:text-7xl xl:text-8xl block mt-4">
                     Evoca
