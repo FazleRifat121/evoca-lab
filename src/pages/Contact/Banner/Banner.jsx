@@ -43,7 +43,7 @@ const Banner = () => {
         </div>
 
         {/* Form Container */}
-        <div className="flex-1 max-w-3xl">
+        <div className="flex-1 max-w-3xl w-full">
           <Form />
         </div>
       </div>

@@ -1,7 +1,7 @@
 // Form.jsx
 const Form = () => {
   return (
-    <div className="max-w-5xl mx-4 lg:mx-auto mt-8 lg:mt-0 lg:mb-0 w-full">
+    <div className="max-w-5xl px-4 lg:mx-auto mt-8 lg:mt-0 lg:mb-0 w-full">
       <form action="" method="post" className="space-y-4 md:space-y-6">
         <div className="flex flex-col lg:flex-row gap-4 md:gap-6">
           <input
