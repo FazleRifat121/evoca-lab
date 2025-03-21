@@ -50,7 +50,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="lg:ml-8 navbar-center hidden lg:flex items-center">
-        <ul className="menu menu-horizontal px-1 gap-16 text-xl items-center">
+        <ul className="menu menu-horizontal px-1 gap-16 text-md items-center">
           {links}
         </ul>
       </div>
