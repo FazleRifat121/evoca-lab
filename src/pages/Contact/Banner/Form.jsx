@@ -1,37 +1,37 @@
+// Form.jsx
 const Form = () => {
   return (
-    <div className="max-w-5xl mx-5 lg:mx-auto mt-10 lg:mt-0  lg:mb-0">
-      <form action="" method="post" className="space-y-5">
-        <div className="lg:space-x-5 flex items-center flex-col lg:flex-row space-y-5 lg:space-y-0">
+    <div className="max-w-5xl mx-4 lg:mx-auto mt-8 lg:mt-0 lg:mb-0 w-full">
+      <form action="" method="post" className="space-y-4 md:space-y-6">
+        <div className="flex flex-col lg:flex-row gap-4 md:gap-6">
           <input
             type="text"
             placeholder="Name"
-            className="input-group border border-gray-600 bg-[#1C1D1C] p-2 rounded"
+            className="w-full border border-gray-600 bg-[#1C1D1C] p-3 md:p-4 rounded-lg focus:ring-2 focus:ring-[#C8DA27]"
           />
           <input
             type="email"
             placeholder="Email"
-            className="input-group border border-gray-600 bg-[#1C1D1C] p-2 rounded md:w-56 w-full"
+            className="w-full lg:w-auto lg:flex-1 border border-gray-600 bg-[#1C1D1C] p-3 md:p-4 rounded-lg focus:ring-2 focus:ring-[#C8DA27]"
           />
         </div>
         <div>
           <input
-            type="number"
+            type="tel"
             placeholder="Phone"
-            className="input-group border border-gray-600 bg-[#1C1D1C] p-2 rounded w-full"
+            className="w-full border border-gray-600 bg-[#1C1D1C] p-3 md:p-4 rounded-lg focus:ring-2 focus:ring-[#C8DA27]"
           />
         </div>
         <div>
           <textarea
-            className="w-full px-3 py-2 md:px-4 md:py-2.5 border border-gray-600 bg-[#1C1D1C] rounded focus:ring-2 focus:ring-blue-500 h-32 md:h-40 text-sm md:text-base"
-            required
+            className="w-full border border-gray-600 bg-[#1C1D1C] p-3 md:p-4 rounded-lg focus:ring-2 focus:ring-[#C8DA27] h-40 md:h-48"
             placeholder="Message"
           ></textarea>
         </div>
         <div>
           <button
             type="submit"
-            className="w-full bg-[#C8DA27] text-white py-2.5 md:py-3 px-6 rounded-lg hover:bg-[#c8da278f] transition-colors font-medium text-sm md:text-base"
+            className="w-full bg-[#C8DA27] text-black py-3 md:py-4 px-8 rounded-lg hover:bg-[#c8da278f] transition-colors font-medium text-md md:text-lg"
           >
             Save Message
           </button>
