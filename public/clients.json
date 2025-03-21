@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "img": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    "profession": "Graphic Designer",
+    "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "img": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    "profession": "Software Engineer",
+    "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "img": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    "profession": "Marketing Manager",
+    "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "rating": 3
+  },
+  {
+    "id": 4,
+    "name": "Sarah Williams",
+    "img": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    "profession": "UX Designer",
+    "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "name": "Robert Brown",
+    "img": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    "profession": "Data Analyst",
+    "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "rating": 2
+  },
+  {
+    "id": 6,
+    "name": "Emily Davis",
+    "img": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    "profession": "Product Manager",
+    "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "rating": 5
+  },
+  {
+    "id": 7,
+    "name": "David Wilson",
+    "img": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    "profession": "Content Writer",
+    "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "rating": 4
+  },
+  {
+    "id": 8,
+    "name": "Emma Taylor",
+    "img": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    "profession": "Project Manager",
+    "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "rating": 3
+  },
+  {
+    "id": 9,
+    "name": "James Anderson",
+    "img": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    "profession": "Web Developer",
+    "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "rating": 5
+  },
+  {
+    "id": 10,
+    "name": "Olivia Martinez",
+    "img": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    "profession": "SEO Specialist",
+    "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "rating": 4
+  },
+  {
+    "id": 11,
+    "name": "William Thomas",
+    "img": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    "profession": "System Administrator",
+    "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "rating": 3
+  },
+  {
+    "id": 12,
+    "name": "Sophia White",
+    "img": "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp",
+    "profession": "Network Engineer",
+    "description": "A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "rating": 4
+  }
+]

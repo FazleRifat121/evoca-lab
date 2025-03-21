@@ -4,12 +4,12 @@ const Banner = () => {
       <div className=" flex items-center justify-center">
         <div className=" text-white w-full">
           <h1 className="text-3xl md:text-4xl lg:text-5xl text-white mb-6 md:mb-8">
-            <span className="lg:text-6xl font-thin"> Who is</span> <br />
+            <span className="lg:text-6xl font-thin"> What our</span> <br />
             <span className="flex items-center gap-2 lg:gap-5 ">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#C8DA27] to-[#8F9C1C] text-5xl md:text-6xl lg:text-7xl xl:text-8xl block mt-4">
-                Evoca
+                Clients
               </span>
-              <span className="mt-5 lg:mt-10 text-4xl">Lab?</span>
+              <span className="mt-5 lg:mt-10 text-4xl">Say?</span>
             </span>
             <p className="text-sm text-[#d9d9d9a2] w-full md:w-[665px] text-justify mt-3">
               s simply dummy text of the printing and typesetting industry.
