@@ -1,6 +1,7 @@
 import { NavLink } from "react-router";
 import logo from "../../assets/logo.png";
 import Sidebar from "./Sidebar";
+
 const Navbar = () => {
   const links = (
     <>
@@ -33,18 +34,23 @@ const Navbar = () => {
       </NavLink>
     </>
   );
+
   return (
-    <div className="navbar font-inter ">
+    <div className="navbar font-inter">
       <div className="navbar-start">
-        <div className="lg:hidden mr-10">
-          <Sidebar></Sidebar>
+        <div className="lg:hidden mr-4">
+          <Sidebar />
         </div>
-        <a href="/">
-          <img src={logo} className="w-7xl md:w-full " alt="logo" />
+        <a href="/" className="ml-4 lg:ml-0">
+          <img
+            src={logo}
+            className="w-48 md:w-56 lg:w-64 xl:w-72 object-contain"
+            alt="logo"
+          />
         </a>
       </div>
-      <div className="lg:ml-8 navbar-center hidden lg:flex items-center ">
-        <ul className="menu menu-horizontal px-1 gap-16 text-xl items-center ">
+      <div className="lg:ml-8 navbar-center hidden lg:flex items-center">
+        <ul className="menu menu-horizontal px-1 gap-16 text-xl items-center">
           {links}
         </ul>
       </div>
