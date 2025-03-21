@@ -13,6 +13,9 @@ const Sidebar = () => {
       <NavLink to={"/team"}>
         <li>Team</li>
       </NavLink>
+      <NavLink to={"/case"}>
+        <li>Case Studies</li>
+      </NavLink>
       <NavLink to={"/about"}>
         <li>Sales details</li>
       </NavLink>

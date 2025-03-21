@@ -9,6 +9,7 @@ import About from "../pages/About/About";
 import Team from "../pages/Team/Team";
 import Story from "../pages/Story/Story";
 import Contact from "../pages/Contact/Contact";
+import Case from "../pages/Case/Case";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,6 +17,7 @@ export const router = createBrowserRouter(
       <Route path="/" element={<Home />}></Route>
       <Route path="/about" element={<About />}></Route>
       <Route path="/team" element={<Team />}></Route>
+      <Route path="/case" element={<Case />}></Route>
       <Route path="/sales" element={<Home />}></Route>
       <Route path="/story" element={<Story />}></Route>
       <Route path="/videos" element={<Home />}></Route>

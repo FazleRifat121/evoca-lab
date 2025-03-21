@@ -13,6 +13,9 @@ const Navbar = () => {
       <NavLink to={"/team"}>
         <li>Team</li>
       </NavLink>
+      <NavLink to={"/case"}>
+        <li>Case Studies</li>
+      </NavLink>
       <NavLink to={"/about"}>
         <li>Sales details</li>
       </NavLink>
@@ -40,7 +43,7 @@ const Navbar = () => {
           <img src={logo} className="w-7xl md:w-full " alt="logo" />
         </a>
       </div>
-      <div className="lg:ml-6 navbar-center hidden lg:flex items-center ">
+      <div className="lg:ml-8 navbar-center hidden lg:flex items-center ">
         <ul className="menu menu-horizontal px-1 gap-16 text-xl items-center ">
           {links}
         </ul>
