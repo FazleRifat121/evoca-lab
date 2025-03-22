@@ -11,6 +11,7 @@ import Story from "../pages/Story/Story";
 import Contact from "../pages/Contact/Contact";
 import Case from "../pages/Case/Case";
 import Videos from "../pages/Videos/Videos";
+import Sales from "../pages/Sales/Sales";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,7 +20,7 @@ export const router = createBrowserRouter(
       <Route path="/about" element={<About />}></Route>
       <Route path="/team" element={<Team />}></Route>
       <Route path="/case" element={<Case />}></Route>
-      <Route path="/sales" element={<Home />}></Route>
+      <Route path="/sales" element={<Sales />}></Route>
       <Route path="/story" element={<Story />}></Route>
       <Route path="/videos" element={<Videos />}></Route>
       <Route path="/contact" element={<Contact />}></Route>
