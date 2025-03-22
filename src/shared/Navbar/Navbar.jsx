@@ -26,6 +26,9 @@ const Navbar = () => {
       <NavLink to={"/videos"}>
         <li>How-to videos</li>
       </NavLink>
+      <NavLink to={"/signIn"}>
+        <li>SignIn</li>
+      </NavLink>
       <NavLink
         to={"/contact"}
         className="btn bg-[#C8DA27] text-black rounded text-xl  font-inter py-6 px-4 lg:ml-5"

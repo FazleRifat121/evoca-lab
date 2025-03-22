@@ -4,7 +4,7 @@ import Footer from "../../shared/Footer/Footer";
 
 const MainLayout = () => {
   return (
-    <div>
+    <div data-theme="black">
       <Outlet></Outlet>
       <Footer></Footer>
     </div>
