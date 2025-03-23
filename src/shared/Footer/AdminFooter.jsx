@@ -4,7 +4,7 @@ import { BsTwitterX } from "react-icons/bs";
 
 const AdminFooter = () => {
   return (
-    <footer className="container mx-auto px-4 py-8">
+    <footer className="container mx-auto px-4 py-8 border-t-2">
       <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
         {/* Logo Section */}
         <div className="shrink-0">
