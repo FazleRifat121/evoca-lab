@@ -7,7 +7,9 @@ const Videos = () => {
     <div className="container mx-auto p-4">
       <Navbar></Navbar>
       <Banner></Banner>
-      <Cards></Cards>
+      <div className="lg:ml-16">
+        <Cards></Cards>
+      </div>
     </div>
   );
 };
