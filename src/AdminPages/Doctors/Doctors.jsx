@@ -1,7 +1,9 @@
+import Add from "../../components/Add/Add";
+
 const Doctors = () => {
   return (
     <div>
-      <h1>hello</h1>
+      <Add title={"Doctor"}></Add>
     </div>
   );
 };

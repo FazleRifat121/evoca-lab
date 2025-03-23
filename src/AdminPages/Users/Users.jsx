@@ -3,7 +3,7 @@ import Add from "../../components/Add/Add";
 const Users = () => {
   return (
     <div>
-      <Add></Add>
+      <Add title={"User"}></Add>
     </div>
   );
 };
