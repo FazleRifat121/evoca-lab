@@ -1,4 +1,4 @@
-import Navbar from "../../../shared/Navbar/Navbar";
+import Navbar from "../../../shared/Navbar/main/Navbar";
 import "./animatedBg.css";
 
 const Banner = () => {

@@ -1,6 +1,6 @@
 import Banner from "./Banner/Banner";
 import BannerSlider from "./BannerSlider/BannerSlider";
-import Navbar from "../../../shared/Navbar/Navbar";
+import Navbar from "../../../shared/Navbar/main/Navbar";
 const Home = () => {
   return (
     <div className="container mx-auto p-4">

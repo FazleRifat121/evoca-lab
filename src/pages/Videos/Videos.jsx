@@ -1,4 +1,4 @@
-import Navbar from "../../shared/Navbar/Navbar";
+import Navbar from "../../shared/Navbar/main/Navbar";
 import Banner from "./Banner/Banner";
 import Cards from "./Cards/Cards";
 

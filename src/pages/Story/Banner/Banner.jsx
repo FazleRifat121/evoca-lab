@@ -1,4 +1,4 @@
-import Navbar from "../../../shared/Navbar/Navbar";
+import Navbar from "../../../shared/Navbar/main/Navbar";
 import "./bannerStyle.css";
 const Banner = () => {
   return (

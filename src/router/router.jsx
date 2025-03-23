@@ -13,6 +13,7 @@ import Case from "../pages/Case/Case";
 import Videos from "../pages/Videos/Videos";
 import Sales from "../pages/Sales/Sales";
 import SignIn from "../signIn/SignIn";
+import AdminLayout from "../layout/adminLayout/AdminLayout";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,6 +29,7 @@ export const router = createBrowserRouter(
         <Route path="/contact" element={<Contact />}></Route>
       </Route>
       <Route path="/signIn" element={<SignIn />} />
+      <Route path="/admin" element={<AdminLayout />}></Route>
     </Route>
   )
 );
