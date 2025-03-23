@@ -1,6 +1,7 @@
 import { Outlet } from "react-router";
 import Navbar from "../../shared/Navbar/Admin/Navbar";
-import Footer from "../../shared/Footer/Footer";
+
+import AdminFooter from "../../shared/Footer/AdminFooter";
 
 const AdminLayout = () => {
   return (
@@ -8,7 +9,7 @@ const AdminLayout = () => {
       <div className="container mx-auto p-4 font-inter">
         <Navbar></Navbar>
         <Outlet></Outlet>
-        <Footer></Footer>
+        <AdminFooter></AdminFooter>
       </div>
     </div>
   );
