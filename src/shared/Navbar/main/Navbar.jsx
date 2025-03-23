@@ -57,7 +57,7 @@ const Navbar = () => {
         <div className="lg:hidden mr-4">
           <Sidebar />
         </div>
-        <NavLink to="/" className="flex items-center ml-4 lg:ml-0 z-10">
+        <NavLink to="/" className="flex items-center ml-4 lg:ml-0 ">
           <img
             src={logo}
             className="w-32 md:w-40 lg:w-48 xl:w-56 h-auto object-contain block" // Fixed sizing
