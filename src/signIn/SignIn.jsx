@@ -1,4 +1,8 @@
+import { useState } from "react";
+import { BiSolidHide } from "react-icons/bi";
+import { BiSolidShow } from "react-icons/bi";
 const SignIn = () => {
+  const [show, setShow] = useState([false]);
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="card bg-base-100 w-full max-w-md shrink-0 shadow-2xl rounded-[50px]">
@@ -17,15 +21,21 @@ const SignIn = () => {
                 placeholder="Email"
               />
             </div>
-            <div className="space-y-2">
+            <div className="space-y-2 relative">
               <label className="fieldset-label text-black font-medium">
                 Password
               </label>
               <input
-                type="password"
+                type={show ? "password" : "text"}
                 className="input input-bordered w-full rounded-xl py-4 focus:ring-2 focus:ring-[#C8DA27]"
                 placeholder="Password"
               />
+              <div
+                className="absolute top-9 left-[300px] md:left-[350px] cursor-pointer text-xl"
+                onClick={() => setShow(!show)}
+              >
+                {show ? <BiSolidHide /> : <BiSolidShow />}
+              </div>
             </div>
             <div className="text-left">
               <a className="link link-hover text-sm">Forgot password?</a>
