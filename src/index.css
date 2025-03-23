@@ -11,6 +11,8 @@
 @theme {
   --font-diavlo: diavlo, "sans-serif";
   --font-inter: inter, "sans-serif";
+  --breakpoint-xs: 320px;
+  --breakpoint-sm: 375px;
 }
 
 @plugin "daisyui" {

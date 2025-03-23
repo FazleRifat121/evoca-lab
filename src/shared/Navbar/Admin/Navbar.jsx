@@ -1,7 +1,7 @@
 import { NavLink } from "react-router";
 import logo from "../../../assets/logo.png";
 import Sidebar from "./Sidebar";
-
+import { IoSearchOutline } from "react-icons/io5";
 const Navbar = () => {
   const links = (
     <>
@@ -20,6 +20,10 @@ const Navbar = () => {
       <NavLink to={"/documents"}>
         <li>Documents</li>
       </NavLink>
+      <li className="relative">
+        <input type="text" className="w-32 py-1 bg-[#96C93B]  rounded-2xl" />
+        <IoSearchOutline />
+      </li>
     </>
   );
 

@@ -31,7 +31,7 @@ const SignIn = () => {
                 placeholder="Password"
               />
               <div
-                className="absolute top-9 left-[300px] md:left-[350px] cursor-pointer text-xl"
+                className="absolute top-9 xs:left-[200px] sm:left-[250px] md:left-[350px] cursor-pointer text-xl"
                 onClick={() => setShow(!show)}
               >
                 {show ? <BiSolidHide /> : <BiSolidShow />}
