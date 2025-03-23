@@ -5,7 +5,7 @@ import Footer from "../../shared/Footer/Footer";
 const AdminLayout = () => {
   return (
     <div>
-      <div>
+      <div className="container mx-auto p-4">
         <Navbar></Navbar>
         <Outlet></Outlet>
         <Footer></Footer>

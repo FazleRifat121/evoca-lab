@@ -1,29 +1,57 @@
 import { NavLink } from "react-router";
 import logo from "../../../assets/logo.png";
 import Sidebar from "./Sidebar";
-import { IoSearchOutline } from "react-icons/io5";
 const Navbar = () => {
   const links = (
     <>
-      <NavLink to={"/"}>
-        <li>Home</li>
-      </NavLink>
-      <NavLink to={"/users"}>
+      <NavLink
+        to={"users"}
+        className={({ isActive, isPending }) =>
+          `p-1 ${isPending ? "text-blue-500" : "text-black"} ${
+            isActive
+              ? "border border-black w-16 text-center rounded-2xl px-2 py-0"
+              : ""
+          }`
+        }
+      >
         <li>Users</li>
       </NavLink>
-      <NavLink to={"/doctors"}>
+      <NavLink
+        to={"doctors"}
+        className={({ isActive, isPending }) =>
+          `p-1 ${isPending ? "text-blue-500" : "text-black"} ${
+            isActive
+              ? "border border-black w-20 text-center rounded-2xl px-2 py-0"
+              : ""
+          }`
+        }
+      >
         <li>Doctors</li>
       </NavLink>
-      <NavLink to={"/appointments"}>
+      <NavLink
+        to={"appointments"}
+        className={({ isActive, isPending }) =>
+          `p-1 ${isPending ? "text-blue-500" : "text-black"} ${
+            isActive
+              ? "border border-black w-32 text-center rounded-2xl px-2 py-0"
+              : ""
+          }`
+        }
+      >
         <li>Appointments</li>
       </NavLink>
-      <NavLink to={"/documents"}>
+      <NavLink
+        to={"documents"}
+        className={({ isActive, isPending }) =>
+          `p-1 ${isPending ? "text-blue-500" : "text-black"} ${
+            isActive
+              ? "border border-black w-24 text-center rounded-2xl px-2 py-0"
+              : ""
+          }`
+        }
+      >
         <li>Documents</li>
       </NavLink>
-      <li className="relative">
-        <input type="text" className="w-32 py-1 bg-[#96C93B]  rounded-2xl" />
-        <IoSearchOutline />
-      </li>
     </>
   );
 

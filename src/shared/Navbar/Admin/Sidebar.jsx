@@ -4,19 +4,16 @@ import { NavLink } from "react-router";
 const Sidebar = () => {
   const links = (
     <>
-      <NavLink to={"/"}>
-        <li>Home</li>
-      </NavLink>
-      <NavLink to={"/users"}>
+      <NavLink to={"users"}>
         <li>Users</li>
       </NavLink>
-      <NavLink to={"/doctors"}>
+      <NavLink to={"doctors"}>
         <li>Doctors</li>
       </NavLink>
-      <NavLink to={"/appointments"}>
+      <NavLink to={"appointments"}>
         <li>Appointments</li>
       </NavLink>
-      <NavLink to={"/documents"}>
+      <NavLink to={"documents"}>
         <li>Documents</li>
       </NavLink>
     </>

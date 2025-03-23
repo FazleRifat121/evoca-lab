@@ -1,7 +1,7 @@
 import {
-  Route,
   createBrowserRouter,
   createRoutesFromElements,
+  Route,
 } from "react-router";
 import MainLayout from "../layout/main/MainLayout";
 import Home from "../pages/Home/Home/Home";
@@ -14,22 +14,37 @@ import Videos from "../pages/Videos/Videos";
 import Sales from "../pages/Sales/Sales";
 import SignIn from "../signIn/SignIn";
 import AdminLayout from "../layout/adminLayout/AdminLayout";
+import Users from "../AdminPages/Users/Users";
+import Doctors from "../AdminPages/Doctors/Doctors";
+import Appoinments from "../AdminPages/Appoinments/Appoinments";
+import Documents from "../AdminPages/Documents/Documents";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-      <Route path="/" element={<MainLayout />}>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/team" element={<Team />}></Route>
-        <Route path="/case" element={<Case />}></Route>
-        <Route path="/sales" element={<Sales />}></Route>
-        <Route path="/story" element={<Story />}></Route>
-        <Route path="/videos" element={<Videos />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
+      {/* Public Routes */}
+      <Route element={<MainLayout />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="team" element={<Team />} />
+        <Route path="case" element={<Case />} />
+        <Route path="sales" element={<Sales />} />
+        <Route path="story" element={<Story />} />
+        <Route path="videos" element={<Videos />} />
+        <Route path="contact" element={<Contact />} />
       </Route>
-      <Route path="/signIn" element={<SignIn />} />
-      <Route path="/admin" element={<AdminLayout />}></Route>
+
+      {/* Authentication */}
+      <Route path="signIn" element={<SignIn />} />
+
+      {/* Admin Routes */}
+      <Route path="admin" element={<AdminLayout />}>
+        <Route index element={<Users />} />
+        <Route path="users" element={<Users />} />
+        <Route path="doctors" element={<Doctors />} />
+        <Route path="appointments" element={<Appoinments />} />
+        <Route path="documents" element={<Documents />} />
+      </Route>
     </Route>
   )
 );
