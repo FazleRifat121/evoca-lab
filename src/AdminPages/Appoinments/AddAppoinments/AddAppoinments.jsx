@@ -6,8 +6,8 @@ const AddAppoinments = () => {
         <div className="space-y-2">
           <input
             type="text"
-            className="w-full px-3 py-2 border rounded-md focus:outline-none bg-[#D9D9D9]"
-            placeholder="Doctor Name"
+            className="w-full px-3 py-2 border rounded-md focus:outline-none bg-[#D9D9D9] "
+            placeholder="Title"
           />
         </div>
 
@@ -58,16 +58,23 @@ const AddAppoinments = () => {
           </div>
         </div>
         {/* third row  */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="space-y-2 flex items-center gap-2">
-            <label className="block text-sm font-medium">Phone</label>
+            <label className="block text-sm font-medium">Date</label>
             <input
-              type="tel"
+              type="date"
               className="w-full px-3 py-2  rounded-md bg-base-300"
             />
           </div>
           <div className="space-y-2 flex items-center gap-2">
-            <label className="block text-sm font-medium">Fax</label>
+            <label className="block text-sm font-medium">Time</label>
+            <input
+              type="Time"
+              className="w-full px-3 py-2  rounded-md bg-base-300"
+            />
+          </div>
+          <div className="space-y-2 flex items-center gap-2">
+            <label className="block text-sm font-medium">Duration</label>
             <input
               type="text"
               className="w-full px-3 py-2  rounded-md bg-base-300"
@@ -75,25 +82,11 @@ const AddAppoinments = () => {
           </div>
         </div>
         {/* fourth row  */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1  ">
           <div className="space-y-2 flex items-center gap-2">
-            <label className="block text-sm font-medium">Email</label>
+            <label className="block text-sm font-medium">Organizer</label>
             <input
-              type="email"
-              className="w-full px-3 py-2  rounded-md bg-base-300"
-            />
-          </div>
-          <div className="space-y-2 flex items-center gap-2">
-            <label className="block text-sm font-medium">Speciality</label>
-            <input
-              type="text"
-              className="w-full px-3 py-2  rounded-md bg-base-300"
-            />
-          </div>
-          <div className="space-y-2 flex items-center gap-2">
-            <label className="block text-sm font-medium">SubSpeciality</label>
-            <input
-              type="text"
+              type="option"
               className="w-full px-3 py-2  rounded-md bg-base-300"
             />
           </div>
@@ -105,7 +98,7 @@ const AddAppoinments = () => {
             type="submit"
             className="px-6 py-3  w-52 rounded-3xl bg-[#F4F4F4]  border"
           >
-            Add Doctor
+            Add appoinment
           </button>
         </div>
       </form>
