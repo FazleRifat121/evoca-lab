@@ -11,7 +11,9 @@ const AdminLayout = () => {
           <Navbar></Navbar>
           <Outlet></Outlet>
         </div>
-        <AdminFooter></AdminFooter>
+        <div className="mt-auto">
+          <AdminFooter></AdminFooter>
+        </div>
       </div>
     </div>
   );

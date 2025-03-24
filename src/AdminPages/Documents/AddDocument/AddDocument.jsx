@@ -1,3 +1,4 @@
+import { FaAngleDown } from "react-icons/fa6";
 const AddDocument = () => {
   return (
     <div>
@@ -16,10 +17,26 @@ const AddDocument = () => {
             <label className="block text-sm font-medium whitespace-nowrap">
               Document type
             </label>
-            <input
-              type="file"
-              className="w-[6.6rem] px-3 py-2  rounded-md  shadow-sm"
-            />
+            <div className="dropdown">
+              <div
+                tabIndex={0}
+                role="button"
+                className="btn w-32 m-1 flex justify-end"
+              >
+                <FaAngleDown />
+              </div>
+              <ul
+                tabIndex={0}
+                className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
+              >
+                <li>
+                  <a>Insurance Coverage</a>
+                </li>
+                <li>
+                  <a>Formulary</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
