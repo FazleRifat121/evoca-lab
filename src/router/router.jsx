@@ -19,6 +19,9 @@ import Doctors from "../AdminPages/Doctors/Doctors";
 import Appoinments from "../AdminPages/Appoinments/Appoinments";
 import Documents from "../AdminPages/Documents/Documents";
 import AddUsers from "../AdminPages/Users/AddUsers/AddUsers";
+import AddDoctors from "../AdminPages/Doctors/AddDoctors/AddDoctors";
+import AddDocument from "../AdminPages/Documents/AddDocument/AddDocument";
+import AddAppoinments from "../AdminPages/Appoinments/AddAppoinments/AddAppoinments";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -46,6 +49,9 @@ export const router = createBrowserRouter(
         <Route path="appointments" element={<Appoinments />} />
         <Route path="documents" element={<Documents />} />
         <Route path="addUsers" element={<AddUsers />} />
+        <Route path="addDoctors" element={<AddDoctors />} />
+        <Route path="addAppoinment" element={<AddAppoinments />} />
+        <Route path="addDocument" element={<AddDocument />} />
       </Route>
     </Route>
   )
