@@ -18,6 +18,7 @@ import Users from "../AdminPages/Users/Users";
 import Doctors from "../AdminPages/Doctors/Doctors";
 import Appoinments from "../AdminPages/Appoinments/Appoinments";
 import Documents from "../AdminPages/Documents/Documents";
+import AddUsers from "../AdminPages/Users/AddUsers/AddUsers";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -44,6 +45,7 @@ export const router = createBrowserRouter(
         <Route path="doctors" element={<Doctors />} />
         <Route path="appointments" element={<Appoinments />} />
         <Route path="documents" element={<Documents />} />
+        <Route path="addUsers" element={<AddUsers />} />
       </Route>
     </Route>
   )
