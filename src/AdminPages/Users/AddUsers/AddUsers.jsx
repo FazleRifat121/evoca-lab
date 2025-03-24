@@ -1,7 +1,7 @@
 const AddUsers = () => {
   return (
-    <div className=" min-h-screen md:min-h-0">
-      <form className="max-w-4xl mx-auto p-6 space-y-6  ">
+    <div className=" min-h-screen pb-20 md:pb-10">
+      <form className="max-w-4xl mx-auto p-6 space-y-6 md:pb-10  ">
         {/* Name Section */}
         <div className="space-y-2">
           <input
@@ -110,10 +110,10 @@ const AddUsers = () => {
         </div>
 
         {/* Add User Button */}
-        <div className="flex justify-end">
+        <div className="flex justify-end mt-8 mb-6">
           <button
             type="submit"
-            className="px-6 py-3  w-52 rounded-3xl bg-[#F4F4F4]  border"
+            className="px-6 py-3 w-52 rounded-3xl bg-[#F4F4F4] border hover:bg-gray-200 transition-colors"
           >
             Add User
           </button>
