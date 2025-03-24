@@ -8,14 +8,14 @@ const Table = () => {
         {/* head */}
         <thead>
           <tr className="text-xl text-black border-0">
-            <th>User Name</th>
+            <th>Documnet Name</th>
           </tr>
         </thead>
         <tbody>
           {/* row 1 */}
           <tr className="border-0">
             <td className="bg-base-300 rounded-3xl px-4 py-2 w-full">
-              Add Your Name
+              Document name
             </td>
 
             <td className="flex items-center gap-2 text-[#96C93B]">
@@ -26,7 +26,7 @@ const Table = () => {
           {/* row 2 */}
           <tr>
             <td className="bg-base-300 rounded-3xl px-4 py-2 row-span-2">
-              Add Your Name
+              Document name
             </td>
 
             <td className="flex items-center gap-2 text-[#96C93B]">
