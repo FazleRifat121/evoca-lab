@@ -32,9 +32,9 @@ const BannerSlider = () => {
                 ? "bg-[#C8DA27] md:scale-110 text-black"
                 : "bg-linear-0 from-[#3D4D3D] to-[#1C1C1D] text-gray-300"
             }
-            ${card.id === 2 ? "order-1 md:order-2" : ""}
-            ${card.id === 1 ? "order-2 md:order-1" : ""}
-            ${card.id === 3 ? "order-3 md:order-3" : ""}
+            ${card.id === 2 ? "order-1 lg:order-2" : ""}
+            ${card.id === 1 ? "order-2 lg:order-1" : ""}
+            ${card.id === 3 ? "order-3 lg:order-3" : ""}
           `}
           onClick={() => setActiveCard(card.id)}
         >

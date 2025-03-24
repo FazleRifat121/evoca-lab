@@ -5,16 +5,12 @@ import AdminFooter from "../../shared/Footer/AdminFooter";
 
 const AdminLayout = () => {
   return (
-    <div>
-      <div className="container mx-auto p-4 font-inter">
-        <div className="h-screen">
-          <Navbar></Navbar>
-          <Outlet></Outlet>
-        </div>
-        <div className="mt-auto">
-          <AdminFooter></AdminFooter>
-        </div>
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <div className="flex-grow container mx-auto p-4 font-inter">
+        <Outlet />
       </div>
+      <AdminFooter />
     </div>
   );
 };
