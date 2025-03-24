@@ -1,7 +1,7 @@
 const AddUsers = () => {
   return (
     <div>
-      <form className="max-w-4xl mx-auto p-6 space-y-6">
+      <form className="max-w-4xl mx-auto p-6 space-y-6 h-screen">
         {/* Name Section */}
         <div className="space-y-2">
           <input
