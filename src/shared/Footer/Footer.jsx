@@ -4,37 +4,41 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 const Footer = () => {
   return (
-    <footer className="footer items-center p-4 mt-10 sm:footer-horizontal">
-      <aside className="grid-flow-col items-center">
-        <a href="/">
+    <footer className="container mx-auto px-4 py-8 border-t-2">
+      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+        {/* Logo Section */}
+        <div className="shrink-0">
           <img
             src={logo}
             alt="logo"
-            className="w-32 md:w-40 lg:w-48 xl:w-56 max-w-full h-auto"
+            className="w-40 md:w-48 lg:w-40 xl:w-52 h-auto object-contain"
           />
-        </a>
-      </aside>
-      <div className="relative lg:ml-28 ">
-        <p>
-          Terms & conditions Privacy policy Cookies policy Copyrights
-          Notification
-        </p>
-        <span className="text-gray-500 absolute top-10 lg:left-48 lg:top-6">
-          All rights reserved.
-        </span>
-      </div>
+        </div>
 
-      <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-        <a href="link">
-          <FaInstagram className="text-3xl text-[#C8DA27]" />
-        </a>
-        <a href="link">
-          <FaFacebookSquare className="text-3xl text-[#C8DA27]" />
-        </a>
-        <a href="link">
-          <BsTwitterX className="text-3xl text-[#C8DA27]" />
-        </a>
-      </nav>
+        {/* Legal Text */}
+        <div className="lg:text-center  max-w-2xl  relative">
+          <p>
+            Terms & conditions Privacy policy Cookies policy Copyrights
+            Notification
+          </p>
+          <span className="text-gray-500 lg:absolute  lg:left-48 lg:top-6">
+            All rights reserved.
+          </span>
+        </div>
+
+        {/* Social Links */}
+        <nav className="flex gap-6 lg:gap-4 xl:gap-6 lg:justify-center">
+          <a href="/" className="hover:opacity-75 transition-opacity">
+            <FaInstagram className="text-2xl md:text-3xl text-[#C8DA27]" />
+          </a>
+          <a href="/" className="hover:opacity-75 transition-opacity">
+            <FaFacebookSquare className="text-2xl md:text-3xl text-[#C8DA27]" />
+          </a>
+          <a href="/" className="hover:opacity-75 transition-opacity">
+            <BsTwitterX className="text-2xl md:text-3xl text-[#C8DA27]" />
+          </a>
+        </nav>
+      </div>
     </footer>
   );
 };
