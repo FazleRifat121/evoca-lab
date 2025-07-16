@@ -34,11 +34,12 @@ Pull requests are welcome! For major changes, please open an issue first.
 🙋‍♂️ Author
 Fazle Rifat
 
-💼 Portfolio
+💼 [Portfolio](https://fazle.netlify.app/) 
 
-💬 LinkedIn
+💬 [LinkedIn](https://www.linkedin.com/in/fazle-rifat-660bb2328/)
 
 📨 Email: fazlerifatofficial@gmail.com
+
 
 ⭐ Support
 If you found this project helpful, feel free to give it a ⭐ on GitHub and share it with others!
