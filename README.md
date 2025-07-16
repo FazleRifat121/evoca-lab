@@ -1,12 +1,57 @@
-# React + Vite
+# 🎤 EvocaLab Trial
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**EvocaLab Trial** is a voice-based language learning interface designed for improving pronunciation, practicing vocabulary, and enhancing communication through interactive speech features.
 
-Currently, two official plugins are available:
+🔗 **Live Preview:** [evocalabtrial.netlify.app](https://evocalabtrial.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎙️ Voice recognition integration
+- 🗣️ Real-time pronunciation feedback
+- 📚 Vocabulary practice modules
+- 💻 Responsive and modern UI
+- 🚀 Fast, lightweight, and user-friendly
+
+---
+
+## ⚙️ Built With
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **CSS / Tailwind CSS**
+- **Web Speech API** (or similar voice input system)
+- **Netlify** for deployment
+
+---
+
+
+🤝 Contributing
+Want to improve this project?
+Pull requests are welcome! For major changes, please open an issue first.
+
+🙋‍♂️ Author
+Fazle Rifat
+
+💼 Portfolio
+
+💬 LinkedIn
+
+📨 Email: fazlerifatofficial@gmail.com
+
+⭐ Support
+If you found this project helpful, feel free to give it a ⭐ on GitHub and share it with others!
+
+yaml
+Copy
+Edit
+
+---
+
+Let me know if:
+- You want to add **API details** or specific **features**
+- You used libraries like **SpeechRecognition** or **Framer Motion**
+- You want a **screenshot section** auto-generated from your live site
+
+I can improve it further with that info!
